@@ -72,20 +72,20 @@ const LandingPage: React.FC = () => {
 
   const testimonials = [
     {
-      name: 'Dr. Sarah Liu',
-      role: 'ML Lead at IoT Innovations',
+      name: 'Research Foundation',
+      role: 'Based on peer-reviewed papers',
       content: 'EdgeBrain solved our biggest challenge: training models without centralizing sensitive IoT data. Game-changing.',
       avatar: '👩‍🔬',
     },
     {
-      name: 'James Morrison',
-      role: 'Product Director at SmartCity Co',
+      name: 'Technical Approach',
+      role: 'Differential privacy guarantees',
       content: 'The privacy budget feature gives us confidence our city infrastructure data stays protected.',
       avatar: '👨‍💼',
     },
     {
-      name: 'Elena Patel',
-      role: 'Chief Privacy Officer at HealthTech',
+      name: 'Early Access',
+      role: 'Join our beta program',
       content: 'Finally, federated learning that actually works for healthcare. Differential privacy gives us the guarantees we need.',
       avatar: '👩‍⚕️',
     },
@@ -131,20 +131,20 @@ const LandingPage: React.FC = () => {
             {/* Stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto">
               <div>
-                <div className="text-3xl font-bold text-gradient-br text-primary-600 dark:text-primary-400 mb-2">1000+</div>
-                <p className="text-gray-600 dark:text-gray-400 text-sm">Devices Trained</p>
+                <div className="text-3xl font-bold text-gradient-br text-primary-600 dark:text-primary-400 mb-2">Open</div>
+                <p className="text-gray-600 dark:text-gray-400 text-sm">Beta Program</p>
               </div>
               <div>
-                <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">99.9%</div>
-                <p className="text-gray-600 dark:text-gray-400 text-sm">Privacy Guarantee</p>
+                <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">Strong</div>
+                <p className="text-gray-600 dark:text-gray-400 text-sm">Privacy Focus</p>
               </div>
               <div>
-                <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">50ms</div>
-                <p className="text-gray-600 dark:text-gray-400 text-sm">Round Latency</p>
+                <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">Low</div>
+                <p className="text-gray-600 dark:text-gray-400 text-sm">Latency Goal</p>
               </div>
               <div>
-                <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">SOC2</div>
-                <p className="text-gray-600 dark:text-gray-400 text-sm">Certified</p>
+                <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">Security</div>
+                <p className="text-gray-600 dark:text-gray-400 text-sm">First</p>
               </div>
             </div>
           </div>
@@ -226,10 +226,10 @@ const LandingPage: React.FC = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              Trusted by Leading Organizations
+              Why Choose EdgeBrain
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              Join companies solving real-world problems with federated learning
+              Built on federated learning research for privacy-preserving ML
             </p>
           </div>
 
