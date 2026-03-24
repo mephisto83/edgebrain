@@ -74,19 +74,19 @@ const LandingPage: React.FC = () => {
     {
       name: 'Research Foundation',
       role: 'Based on peer-reviewed papers',
-      content: 'EdgeBrain solved our biggest challenge: training models without centralizing sensitive IoT data. Game-changing.',
+      content: 'Implements differential privacy for privacy-preserving federated learning.',
       avatar: '👩‍🔬',
     },
     {
       name: 'Technical Approach',
       role: 'Differential privacy guarantees',
-      content: 'The privacy budget feature gives us confidence our city infrastructure data stays protected.',
+      content: 'Epsilon tracking for quantifiable privacy-utility tradeoffs.',
       avatar: '👨‍💼',
     },
     {
       name: 'Early Access',
       role: 'Join our beta program',
-      content: 'Finally, federated learning that actually works for healthcare. Differential privacy gives us the guarantees we need.',
+      content: 'Early access tools for training ML models without centralizing data.',
       avatar: '👩‍⚕️',
     },
   ];
